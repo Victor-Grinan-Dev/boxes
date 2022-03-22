@@ -1,3 +1,56 @@
+
+body{
+  background-color: black;
+}
+
+header {
+  height: 15vh;
+  background-color: #084066;
+  display: flex;
+  margin-bottom: 3vh;
+}
+
+main {
+  display: flex;
+  background-color: #084066;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+  margin-bottom: 3vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  height: 300px;
+  width: 300px;
+  background-color: aliceblue;
+  box-shadow: 2px 2px 20px black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+  margin: 0 2vw 2vh 2vw;
+}
+
+.data{
+  display: flex;
+}
+
+
+
+footer {
+  height: 15vh;
+  display: flex;
+  background-color: #084066;
+  margin-bottom: 2vh;
+  justify-content: center;
+  align-items: center;
+}
+/*
 .App {
   text-align: center;
 }
@@ -14,7 +67,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #00121e;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -36,3 +89,5 @@
     transform: rotate(360deg);
   }
 }
+
+*/
